@@ -1,0 +1,20 @@
+package in.codeblog.ppmapi.domain;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+
+@Entity
+public class Project {
+	
+	private Long id;
+	private String projectName;
+	private String projectIdentifier;
+	private String description;
+	private Date start_date;
+	private Date end_date;
+	private Date created_At;
+	private Date updated_At;
+	
+
+}
